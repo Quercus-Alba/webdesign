@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Quercus-Alba Website Style guide
+       Quercus-Alba Consulting, LLC
+      Version 1.0, November 22, 2021 -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Style Guide</title>
+    <link href='resources/css/styles.css' rel='stylesheet'>
+
+    <!-- font-family: 'Libre Baskerville', serif; font-family: 'Nunito Sans', sans-serif; font-family: 'EB Garamond', serif; -->
+    <!-- font-family: 'Roboto', sans-serif; font-family: 'Lora', serif; font-family: 'Montserrat', sans-serif; -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body id="top">
+    <header>
+        <h1>
+            <span class="quercus-alba">Quercus-Alba</span> Website Style Guide
+        </h1>
+        <ul class="nav">
+          <li>TOPICS:</li>
+          <li><a href="#colors">Colors</a></li>
+          <li><a href="#color-schemes">Color Schemes</a></li>
+          <li><a href="#fonts">Fonts</a></li>
+          <li><a href="#combining-fonts">Combining Fonts</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <!-- Define Primary and Secondary Color Swatches with Transparency Levels -->
+        <section class="colors" id="colors">
+            <h2>COLORS</h2>
+            <h3 class="info-topic">Color Theory: <span class="nonbold-serif">Color Theory Fundamentals Every Web Designer Should Know: 
+              <a href="https://elementor.com/blog/color-theory-web-design/" target="_blank">Color Theory Fundamentals</a>.</span></h3>
+            <h3>Primary Colors (Yellow, Blue, and Red):</h3>
+            <article class="colorswatch yellow">
+              <p class="colorlabel">Yellow</p>
+              <p class="colorhex">#FFFF00</p>
+              <p class="colorrgb">rgba(255, 255, 0, 1)</p>
+            </article>
+            <article class="colorswatch yellow yellowtrans75">
+              <p class="colorlabel">Yellow</p>
+              <p>Transparency</p>
+              <p>at 75%</p>
+            </article>
+            <article class="colorswatch yellow yellowtrans50">
+              <p class="colorlabel">Yellow</p>
+              <p>Transparency</p>
+              <p>at 50%</p>
+            </article>
+            <article class="colorswatch yellow yellowtrans25">
+              <p class="colorlabel">Yellow</p>
+              <p>Transparency</p>
+              <p>at 25%</p>
+            </article>
+
+            <br/>  <!-- Break between Primary Color Yellow to start new inline-block -->
+
+            <article class="colorswatch blue">
+                <p class="colorlabel">Blue</p>
+                <p class="colorhex">#0000FF</p>
+                <p class="colorrgb">rgba(0, 0, 255, 1)</p>
+              </article>
+              <article class="colorswatch blue bluetrans75">
+                <p class="colorlabel">Blue</p>
+                <p>Transparency</p>
+                <p>at 75%</p>
+              </article>
+              <article class="colorswatch blue bluetrans50">
+                <p class="colorlabel">Blue</p>
+                <p>Transparency</p>
+                <p>at 50%</p>
+              </article>
+              <article class="colorswatch blue bluetrans25">
+                <p class="colorlabel">Blue</p>
+                <p>Transparency</p>
+                <p>at 25%</p>
+              </article>
+
+              <br/>  <!-- Break between Primary Color Blue to start new inline-block -->
+
+              <article class="colorswatch red">
+                <p class="colorlabel">Red</p>
+                <p class="colorhex">#FF0000</p>
+                <p class="colorrgb">rgba(255, 0, 0, 1)</p>
+              </article>
+              <article class="colorswatch red redtrans75">
+                <p class="colorlabel">Red</p>
+                <p>Transparency</p>
+                <p>at 75%</p>
+              </article>
+              <article class="colorswatch red redtrans50">
+                <p class="colorlabel">Red</p>
+                <p>Transparency</p>
+                <p>at 50%</p>
+              </article>
+              <article class="colorswatch red redtrans25">
+                <p class="colorlabel">Red</p>
+                <p>Transparency</p>
+                <p>at 25%</p>
+              </article>
+
+              <br/>  <!-- Break between Primary and Secondary Color inline-block elements -->
+
+              <h3>Secondary Colors (Green, Violet, and Orange):</h3>
+              <article class="colorswatch green">
+                <p class="colorlabel">Green</p>
+                <p class="colorhex">#00FF00</p>
+                <p class="colorrgb">rgba(0, 255, 0, 1)</p>
+              </article>
+              <article class="colorswatch green greentrans75">
+                <p class="colorlabel">Green</p>
+                <p>Transparency</p>
+                <p>at 75%</p>
+              </article>
+              <article class="colorswatch green greentrans50">
+                <p class="colorlabel">Green</p>
+                <p>Transparency</p>
+                <p>at 50%</p>
+              </article>
+              <article class="colorswatch green greentrans25">
+                <p class="colorlabel">Green</p>
+                <p>Transparency</p>
+                <p>at 25%</p>
+              </article>
+
+              <br/>  <!-- Break between Secondary Color Green to start new inline-block -->
+
+              <article class="colorswatch violet">
+                <p class="colorlabel">Violet</p>
+                <p class="colorhex">#8F00FF</p>
+                <p class="colorrgb">rgba(143, 0, 255, 1)</p>
+              </article>
+              <article class="colorswatch violet violettrans75">
+                <p class="colorlabel">Violet</p>
+                <p>Transparency</p>
+                <p>at 75%</p>
+              </article>
+              <article class="colorswatch violet violettrans50">
+                <p class="colorlabel">Violet</p>
+                <p>Transparency</p>
+                <p>at 50%</p>
+              </article>
+              <article class="colorswatch violet violettrans25">
+                <p class="colorlabel">Violet</p>
+                <p>Transparency</p>
+                <p>at 25%</p>
+              </article>
+
+              <br/>  <!-- Break between Secondary Color Violet to start new inline-block -->
+
+              <article class="colorswatch orange">
+                <p class="colorlabel">Orange</p>
+                <p class="colorhex">#FFA500</p>
+                <p class="colorrgb">rgba(255, 165, 0, 1)</p>
+              </article>
+              <article class="colorswatch orange orangetrans75">
+                <p class="colorlabel">Orange</p>
+                <p>Transparency</p>
+                <p>at 75%</p>
+              </article>
+              <article class="colorswatch orange orangetrans50">
+                <p class="colorlabel">Orange</p>
+                <p>Transparency</p>
+                <p>at 50%</p>
+              </article>
+              <article class="colorswatch orange orangetrans25">
+                <p class="colorlabel">Orange</p>
+                <p>Transparency</p>
+                <p>at 25%</p>
+              </article>
+
+              <h3 class="info-topic">Color Contrast for Better Readability and Accessibility: <span class="nonbold-serif">As shown above, 
+                some text that occurs on colored backgrounds is easier to read than others. To improve text readability, the background 
+                and font color must contrast enought to be clearly visible. This contrast is measured as a <b>contrast ratio</b> and should 
+                be at least <b>4.5:1</b> to meet Web Content Accessibility Guidelines (WCAG). See the Color Resources below for 
+                more information.</span></h3>
+
+                <!-- <p class="resources">Color Resources:</p> -->
+
+                <h3>Color Resources:</h3>
+                <ol>
+                  <li>To find colors, color codes (Hex, RGB and CMYK), and complementary colors see 
+                    <a href="https://colorcodes.io/" target="_blank">Color Codes</a>.</li>
+                  <li>To determine hex, rgb, or hsl values see 
+                    <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">HTML Color Picker</a>.</li>
+                  <li>To mix any two colors together for resulting color see
+                    <a href="https://www.w3schools.com/colors/colors_mixer.asp" target="_blank">HTML Color Mixer</a>.</li>
+                  <li>Designing for Readability – A Guide to Web Typography
+                    <a href="https://www.toptal.com/designers/typography/web-typography-infographic" target="_blank">Font Readability</a>.</li>
+                  <li>To measure the contrast ratio between background and font color see
+                    <a href="https://color.adobe.com/create/color-contrast-analyzer" target="_blank">Adobe Contrast Checker</a>.</li>
+                  <li>WebAIM Web Accessibiity Contrast Checker
+                    <a href="https://webaim.org/resources/contrastchecker/" target="_blank">WebAIM Contrast Checker</a>.</li>
+                  <li>Web Content Accessibility Guidelines
+                    <a href="https://www.w3.org/TR/WCAG21/" target="_blank">WCAG 2.1 Guidelines</a>.</li>
+                  <li>How to Meet WCAG (Quick Reference)
+                    <a href="https://www.w3.org/WAI/WCAG21/quickref/" target="_blank">WCAG Quick Reference</a>.</li>
+                </ol>
+
+                <p><a href="#top">Back to Topic List</a></p>
+          </section>  <!-- End Color Section -->
+
+          <section class="colorschemes" id="color-schemes">
+            <h2>COLOR SCHEMES</h2>
+            <h3 class="info-topic">Selecting Color Schemes: <span class="nonbold-serif">Primary and secondary colors can be 
+              mixed and combined into color schemes – multiple colors that work together in a web design – using 
+              various methods or rules (Monochromatic, Analogous, Complementary, Split Complementary, Triad, and Tetradic) 
+              as shown below:</span></h3>
+            <article>
+              <figure>
+                <img src="resources/images/Scheme Selection Methods 750x500.jpg"/ 
+                alt="Methods for selecting color schemes">
+                <figcaption>
+                  Figure shows Monochromatic, Analogous, Complementary, Split Complementary, Triad, and Tedradic color 
+                  scheme selection methods.
+                </figcaption>
+              </figure>
+              <h3 class="info-topic">Color Scheme Exampes: <span class="nonbold-serif">Below are examples of color schemes based on the
+                selection methods shown above.  See the Color Scheme Resources at the bottom of this section to
+              find color scheme generators that can be use to create new color schemes.</span></h3>
+              <figure>
+                <img src="resources/images/Scheme Examples v2 755x510.jpg"/ 
+                alt="Color scheme examples">
+                <figcaption>
+                  Figure shows examples of Monochromatic, Analogous, Complementary, Split Complementary, Triad, and 
+                  Triad color schemes.
+                </figcaption>
+              </figure>
+              <h3 class="info-topic">Quercus-Alba Color Scheme: <span class="nonbold-serif">The color schemes below are a combination of 
+                both Analogous and Monochromatic colors based on three Analogous colors (#A69176, #76B739, and #FCC101). 
+                The other colors are Monochromatic variations of these three colors.
+                Quercus Alba is the scientific name for a White Oak tree.  Hence, the three Analogous colors were inspired by the various parts of
+                the tree (bark-branch [#A69176], summer leaf [#76B739], and autumn leaf [#FCC101]).</span></h3>
+              <figure>
+                <img src="resources/images/QA Color Schemes 111621 750x450.jpg"/
+                alt="Quercus-Alba Color Schemes">
+              </figure>
+              <figcaption>
+                Figure shows Quercus-Alba color schemes based on Analougus and Monochromatic colors
+              </figcaption>
+            </article>
+
+            <h3>Color Scheme Resources:</h3>
+            <ol>
+              <li>Seven rules about color palettes that everyone (including non-designers) should know 
+                <a href="https://medium.springboard.com/a-designers-guide-to-selecting-colors-for-your-product-9944756838d4" 
+                target="_blank">Rules About Color</a>.</li>
+              <li>Adobe Color Wheel
+                <a href="https://color.adobe.com/create/color-wheel" target="_blank">Adobe Colors</a>.</li>
+              <li>Paletton Color Scheme Generator 
+                <a href="https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF" target="_blank">Pelatton Color Scheme</a>.</li>
+              <li>Coolors Color Schemes Generator 
+                <a href="https://coolors.co/" target="_blank">Coolers Color Scheme</a>.</li>
+              <li>Color Palette Generator by Muzil Colors 
+                <a href="https://colors.muz.li/" target="_blank">Muzil Color Scheme</a>.</li>
+              <li>Largest collection of official brand colors
+                <a href="https://brandcolors.net/" target="_blank">Brand Colors</a>.</li>
+              <li>Website Color Scheme Ideas and Examples 
+                <a href="https://designshack.net/articles/trends/best-website-color-schemes/" target="_blank">Color Scheme Ideas</a>.</li>
+              <li>Best Web Design Companies & Web Designers 
+                <a href="https://www.10bestdesign.com/firms/?gclid=EAIaIQobChMIpvL45dWg9AIVAIxoCR3DcQpIEAAYBCAAEgJ8DPD_BwE" 
+                target="_blank">Web Design Examples</a>.</li>
+            </ol>
+
+            <p><a href="#top">Back to Topic List</a></p>
+          </section>
+
+          <!-- Fonts -->
+          
+          <section class="fonts" id="fonts">
+            <h2>FONTS</h2>
+            <h3 class="info-topic">Font Families – Serif, Sans Serif, and Monospace: <span class="nonbold-serif"><u>Serif</u> fonts have decorative end 
+              strokes and are often used in smaller font size because they are easy to read. For example, Serif fonts are used in the body of 
+              newsprint, magazines, and books. <u>Sans Serif</u> fonts do not have decorative end strokes and appear plainer than Serif fonts. 
+              Sans Serif fonts are typically used in headers and titles and usually appear in larger font size. 
+              <u>Monospace</u> fonts have the same horizontal space for each letter or character and appear as an older more traditional 
+              font used before the graphic era of computers and typewriters. There are also other font families besides these three 
+              such as cursive and fantasy. In addition, fonts are categorized as <u>Web Safe Fonts</u> or <u>Web Based Fonts</u> such as <u>Google Fonts</u>. 
+              See the Font Resources list below for more information on font families, web safe fonts, and web based fonts.
+            </span></h3>
+
+            <h3 class="info-topic">Serif Fonts: <span class="nonbold-serif">Use serif fonts to project brand characteristics such as being more 
+              traditional, historical, trustworthy, elegant, confident, established, or reputable. Below are examples of some 
+              popular <b>serif fonts</b>.</span></h3>
+           
+              <article class="font-examples">
+                <h3 class="times-new-roman font-header">
+                  Times New Roman<span class="web-safe-font">(Web Safe Font)</span>
+                </h3>
+                <p class="times-new-roman textsize">
+                  The quick brown fox jumps over the lazy dog.
+                </p>
+                <p class="times-new-roman textsize">
+                  <b>The quick brown fox jumps over the lazy dog.</b>
+                </p>
+                <p class="times-new-roman textsize">
+                  <i>The quick brown fox jumps over the lazy dog.</i>
+                </p>
+              </article>
+
+              <article class="font-examples">
+                <h3 class="garamond font-header">
+                  Garamond<span class="web-safe-font">(Web Safe Font)</span>
+                </h3>
+                <p class="garamond textsize">
+                  The quick brown fox jumps over the lazy dog.
+                </p>
+                <p class="garamond textsize">
+                  <b>The quick brown fox jumps over the lazy dog.</b>
+                </p>
+                <p class="garamond textsize">
+                  <i>The quick brown fox jumps over the lazy dog.</i>
+                </p>
+              </article>
+
+              <article class="font-examples">
+                <h3 class="georgia font-header">
+                  Georgia<span class="web-safe-font">(Web Safe Font)</span>
+                </h3>
+                <p class="georgia textsize">
+                  The quick brown fox jumps over the lazy dog.
+                </p>
+                <p class="georgia textsize">
+                  <b>The quick brown fox jumps over the lazy dog.</b>
+                </p>
+                <p class="georgia textsize">
+                  <i>The quick brown fox jumps over the lazy dog.</i>
+                </p>
+              </article>
+
+              <article class="font-examples">
+                <h3 class="baskerville font-header">
+                  Libre Baskerville <span class="web-safe-font">(Google Font)</span>
+                </h3>
+                <p class="baskerville textsize">
+                  The quick brown fox jumps over the lazy dog.
+                </p>
+                <p class="baskerville textsize">
+                  <b>The quick brown fox jumps over the lazy dog.</b>
+                </p>
+                <p class="baskerville textsize">
+                  <i>The quick brown fox jumps over the lazy dog.</i>
+                </p>
+              </article>
+
+            <h3 class="info-topic">Sans Serif Fonts: <span class="nonbold-serif">Use sans serif fonts to project brand characteristics such as being more 
+              modern, casual, informal, friendly, youthful, relatable, trendy, or cutting edge. Below are examples of some sans serif fonts.</span></h3>
+
+              <article class="font-examples">
+                <h3 class="arial font-header">
+                  Arial<span class="web-safe-font">(Web Safe Font)</span>
+                </h3>
+                <p class="arial textsize">
+                  The quick brown fox jumps over the lazy dog.
+                </p>
+                <p class="arial textsize">
+                  <b>The quick brown fox jumps over the lazy dog.</b>
+                </p>
+                <p class="arial textsize">
+                  <i>The quick brown fox jumps over the lazy dog.</i>
+                </p>
+              </article>
+
+              <article class="font-examples">
+                <h3 class="calibri font-header">
+                  Calibri<span class="web-safe-font">(Web Safe Font)</span>
+                </h3>
+                <p class="calibri textsize">
+                  The quick brown fox jumps over the lazy dog.
+                </p>
+                <p class="calibri textsize">
+                  <b>The quick brown fox jumps over the lazy dog.</b>
+                </p>
+                <p class="calibri textsize">
+                  <i>The quick brown fox jumps over the lazy dog.</i>
+                </p>
+              </article>
+
+              <article class="font-examples">
+                <h3 class="helvetica font-header">
+                  Helvetica<span class="web-safe-font">(Web Safe Font)</span>
+                </h3>
+                <p class="helvetica textsize">
+                  The quick brown fox jumps over the lazy dog.
+                </p>
+                <p class="helvetica textsize">
+                  <b>The quick brown fox jumps over the lazy dog.</b>
+                </p>
+                <p class="helvetica textsize">
+                  <i>The quick brown fox jumps over the lazy dog.</i>
+                </p>
+              </article>
+              
+              <article class="font-examples">
+                <h3 class="nunito-sans font-header">
+                  Nunito Sans<span class="web-safe-font">(Google Font)</span>
+                </h3>
+                <p class="nunito-sans textsize">
+                  The quick brown fox jumps over the lazy dog.
+                </p>
+                <p class="nunito-sans textsize">
+                  <b>The quick brown fox jumps over the lazy dog.</b>
+                </p>
+                <p class="nunito-sans textsize">
+                  <i>The quick brown fox jumps over the lazy dog.</i>
+                </p>
+              </article>
+
+              <h3 class="info-topic">Monospace Fonts: <span class="nonbold-serif">Use Monospace Fonts to recreate 
+                typewriter or computer print presentations or to create a unique appearance.</span></h3>
+  
+                <article class="font-examples">
+                  <h3 class="courier-news font-header">
+                    Courier News<span class="web-safe-font">(Web Safe Font)</span>
+                  </h3>
+                  <p class="courier-news textsize">
+                    The quick brown fox jumps over the lazy dog.
+                  </p>
+                  <p class="courier-news textsize">
+                    <b>The quick brown fox jumps over the lazy dog.</b>
+                  </p>
+                  <p class="courier-news textsize">
+                    <i>The quick brown fox jumps over the lazy dog.</i>
+                  </p>
+                </article>
+
+                <h3>Font Resources:</h3>
+                <ol>
+                  <li>Font Family List 
+                    <a href="https://www.tutorialbrain.com/css_tutorial/css_font_family_list/" target="_blank">Font Families</a>.</li>
+                  <li>MDN Web Docs: font-family use in CSS
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-family" target="_blank">Using Font Families in CSS</a>.</li>
+                  <li>Sans Serif vs Serif Font: Which Should You Use & When? 
+                    <a href="https://www.impactplus.com/blog/sans-serif-vs-serif-font-which-should-you-use-when" 
+                    target="_blank">Sans Serif vs Serif Font</a>.</li>
+                  <li>Typography 101: How to Choose the Fonts for your Brand
+                    <a href="https://www.beltcreative.com/blog/typography-101-fonts-for-your-brand" target="_blank">Choosing Fonts</a>.</li>
+                  <li>Best Monospaced Fonts & Typefaces For Designers
+                    <a href="https://www.designbombs.com/best-monospaced-fonts/" target="_blank">Monospace Fonts</a>.</li>
+                  <li>A complete collection of web safe CSS font stacks
+                    <a href="https://www.cssfontstack.com/" target="_blank">Web Safe Fonts</a>.</li>
+                  <li>How to use Google Fonts in your next web design project
+                    <a href="https://www.freecodecamp.org/news/how-to-use-google-fonts-in-your-next-web-design-project-e1ad48f1adfa/" 
+                    target="_blank">Using Google Fonts</a>.</li>
+                  <li>Google Fonts
+                    <a href="https://fonts.google.com/" target="_blank">Google Fonts Website</a>.</li>
+                </ol>
+
+                <p><a href="#top">Back to Topic List</a></p>
+          </section>
+
+          <!-- Combining Font Familes and Text Styles -->
+
+          <section class="styles" id="combining-fonts">
+            <h2>COMBINING FONT FAMILIES AND TEXT STYLES</h2>
+            <h3 class="info-topic">Combining Fonts and Styles: <span class="nonbold-serif">Not all font pairings work well together 
+              and finding a good combination can be elusive. Below are some examples of font family pairings 
+              that work well together. To learn more about font pairings, refer to this article titled 
+              <a href="https://www.canva.com/learn/the-ultimate-guide-to-font-pairing/" target="_blank">Better Together</a>. Also, 
+              see Combining Fonts and Text Styles Resources at the bottom of this section for more helpful information.</span></h3>
+            
+              <h3>Font and Style Combinations:</h3>
+
+              <article class="font-mix">
+                <h3 class="ffbaskerville fontmix-header">
+                  Libre Baskerville<span class="mix-size">(28 pt - Libre Baskerville - Mixing Styles)</span>
+                </h3>
+                <p class="famous-quote ffbaskerville">
+                  FAMOUS QUOTE EXAMPLE<span class="mix-size">(18 pt - Libre Baskerville Uppercase)</span>
+                </p>
+                <p class="quote ffbaskerville">
+                  “No matter how short or long your journey to your accomplishment is, 
+                  if you don't begin you can't get there. Beginning is difficult, but unavoidable!”
+                  <span class="mix-size">(16 pt - Libre Baskerville Normal)</span>
+                </p>
+                <p class="author ffbaskerville">
+                  <b><i>― Israelmore Ayivor, The Great Hand Book of Quotes</i></b><span class="mix-size">(14 pt - Libre Baskerville Bold Italic)</span>
+                </p>
+              </article>
+
+              <article class="font-mix">
+                <h3 class="ffhelvetica fontmix-header">
+                  Helvetica & Garamond<span class="mix-size">(28 pt - Helvetica - Mixing Fonts & Styles)</span>
+                </h3>
+                <p class="famous-quote ffhelvetica">
+                  FAMOUS QUOTE EXAMPLE<span class="mix-size">(18 pt - Helvetica)</span>
+                </p>
+                <p class="quote ffgaramond">
+                  “No matter how short or long your journey to your accomplishment is, 
+                  if you don't begin you can't get there. Beginning is difficult, but unavoidable!”
+                  <span class="mix-size">(16 pt - Garamond Normal)</span>
+                </p>
+                <p class="author ffgaramond">
+                  <b><i>― Israelmore Ayivor, The Great Hand Book of Quotes</i></b><span class="mix-size">(14 pt - Libre Garamond Bold Italic)</span>
+                </p>
+              </article>
+
+              <article class="font-mix">
+                <h3 class="ffroboto fontmix-header">
+                  <b>Roboto & Lora</b><span class="mix-size">(28 pt - Roboto Bold - Mixing Fonts & Styles)</span>
+                </h3>
+                <p class="famous-quote ffroboto">
+                  FAMOUS QUOTE EXAMPLE<span class="mix-size">(18 pt - Roboto Regular)</span>
+                </p>
+                <p class="quote fflora">
+                  “No matter how short or long your journey to your accomplishment is, 
+                  if you don't begin you can't get there. Beginning is difficult, but unavoidable!”
+                  <span class="mix-size">(16 pt - Lora Regular)</span>
+                </p>
+                <p class="author fflora">
+                  <b><i>― Israelmore Ayivor, The Great Hand Book of Quotes</i></b><span class="mix-size">(14 pt - Lora Bold Italic)</span>
+                </p>
+              </article>
+
+              <article class="font-mix">
+                <h3 class="ffmontserrat fontmix-header">
+                  <b>Montserrat & Courier News</b><span class="mix-size">(28 pt - Montserrat Bold - Mixing Fonts & Styles)</span>
+                </h3>
+                <p class="famous-quote ffmontserrat">
+                  FAMOUS QUOTE EXAMPLE<span class="mix-size">(18 pt - Montserrat Regular)</span>
+                </p>
+                <p class="quote ffcourier-news">
+                  “No matter how short or long your journey to your accomplishment is, 
+                  if you don't begin you can't get there. Beginning is difficult, but unavoidable!”
+                  <span class="mix-size">(16 pt - Lora Regular)</span>
+                </p>
+                <p class="author ffcourier-news">
+                  <b><i>― Israelmore Ayivor, The Great Hand Book of Quotes</i></b><span class="mix-size">(14 pt - Lora Bold Italic)</span>
+                </p>
+              </article>
+
+              <h3 class="info-topic">Quercus-Alba Font and Style Combinations: <span class="nonbold-serif">Below is an example
+                of the font combinations used by Quercus-Alba.</span></h3>
+
+              <article class="font-mix">
+                <h3 class="ffnunito fontmix-header">
+                  <b><i>Nunito Sans, Verdana, & Georgia</i></b><span class="mix-size">(28 pt - Nunito Sans Bold)</span>
+                </h3>
+                <p class="qb-famous-quote ffverdana">
+                  <b>Famous Quote Example</b><span class="mix-size">(16 pt - Verdana bold)</span>
+                </p>
+                <p class="quote ffgeorgia">
+                  “No matter how short or long your journey to your accomplishment is, 
+                  if you don't begin you can't get there. Beginning is difficult, but unavoidable!”
+                  <span class="mix-size">(16 pt - Georgia Regular)</span>
+                </p>
+                <p class="author ffgeorgia">
+                  <b><i>― Israelmore Ayivor, The Great Hand Book of Quotes</i></b><span class="mix-size">(14 pt - Georgia Bold Italic)</span>
+                </p>
+              </article>
+
+
+              <h3>Combining Fonts and Text Styles Resources:</h3>
+              <ol>
+                <li>Fifty Perfect Font Combinations to Kickstart Your Next Design 
+                  <a href="https://blog.snappa.com/font-combinations/" target="_blank">Font Combinations</a>.</li>
+                <li>Free typography for your next creative project
+                  <a href="https://www.fontpair.co/" target="_blank">Typography for Next Project</a>.</li>
+                <li>Tips for Combining Different Typefaces in Web Design
+                  <a href="https://creativecloud.adobe.com/discover/article/eight-tips-for-combining-typefaces" 
+                  target="_blank">Mix and Match Fonts</a></li>
+                <li>The Art of Mixing Fonts in Web Design
+                  <a href="https://designmodo.com/mix-fonts-web-design/" target="_blank">Examples of Mixing Fonts</a>.</li>
+                <li>Thirty-six Font Pairings
+                  <a href="https://www.creativebloq.com/typography/20-perfect-type-pairings-3132120" target="_blank">Font Pairings</a>.</li>
+                <li>To test readability of text layout at various sizes use 
+                  <a href="https://www.gridlover.net/try" target="_blank">Grid Lover</a>.</li>
+              </ol>
+
+              <p><a href="#top">Back to Topic List</a></p>
+          </section>
+
+    </main>
+
+    <footer>
+      <p>
+        Copyright &copy; 2021 Quercus-Alba consulting, LLC
+      </p>
+
+    </footer>
+    
+</body>
+</html>
